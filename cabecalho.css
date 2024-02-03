@@ -1,0 +1,36 @@
+.cabecalho {
+    padding: 2em 1em;
+    display: flex;
+    align-items: center;
+}
+.cabecalho_texto {
+    padding: 1em;
+}
+.cabecalho_titulo {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--cor-preta);
+    padding: 0.4em 0;
+}
+.cabecalho_paragrafo {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-cinza);
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        padding-top: 5%;
+        justify-content: center;
+    }
+    .cabecalho_imagem {
+        width: 10%;
+    }
+    .cabecalho_titulo {
+        font-size: 30px;
+        gap: 1em;
+    }
+    .cabecalho_paragrafo {
+        font-size: 20px;
+    }
+}

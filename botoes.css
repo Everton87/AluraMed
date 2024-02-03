@@ -1,0 +1,21 @@
+.botao_flutuante {
+    position: fixed;
+    bottom: 5%; /* Ajuste conforme necessário para a posição vertical */
+    right: 10%; /* Ajuste conforme necessário para a posição horizontal */
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.botao_flutuante img {
+    width: 150%; /* Ajuste conforme necessário para o tamanho da imagem */
+    height: 150%; /* Ajuste conforme necessário para o tamanho da imagem */
+    display: block;
+}
+
+/* Esconde o botão flutuante em telas acima de 1024px */
+@media screen and (min-width: 1024px) {
+    .botao_flutuante {
+        display: none;
+    }
+}

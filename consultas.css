@@ -1,0 +1,120 @@
+.consultas {
+    padding: 0 0 1em 0;
+}
+.consultas_data {
+    font-size: 16px;
+    font-weight: 700;
+    columns: var(--cor-preta);
+    padding: 0 0 1em 1em;
+}
+
+.consultas_lista {
+    padding: 0 1em;
+}
+
+.consulta_card {
+    border-radius: 16px;
+    background-color: var(--cor-branca);
+    margin-bottom: 1em;
+}
+
+.consulta_paciente {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    border-bottom: 1px solid #ccc; /* Adicione uma borda na parte inferior */
+    padding-bottom: 1em; /* Adicione um espaçamento para separar a borda do conteúdo */
+}
+.paciente_consulta {
+    display: flex;
+    gap: 0.6em;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cor-cinza);
+}
+.paciente_coluna2 {
+    margin-right: auto;
+}
+.paciente_nome {
+    margin-bottom: 0.4em;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--cor-preta);
+}
+
+.consulta_conteudo {
+    padding: 1em;
+}
+.conteudo_botoes {
+    display: flex;
+    justify-content: space-between;
+}
+.conteudo_hora {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--cor-preta);
+    padding: 0 0 1em 0;
+}
+.botao_video {
+    padding: 1em;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cor-branca);
+    background-color: var(--cor-laranja);
+    border-radius: 8px;
+    border: 1px solid var(--cor-laranja);
+    width: 47%;
+}
+.botao_audio {
+    padding: 1em;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cor-preta);
+    background-color: var(--cor-branca);
+    border-radius: 8px;
+    border: 1px solid var(--cor-borda);
+    width: 47%;
+}
+.botao_endereco {
+    padding: 1em;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cor-branca);
+    background-color: var(--cor-azul);
+    border-radius: 8px;
+    border: 1px solid var(--cor-azul);
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .consultas_data {
+        padding: 1em 0;
+        font-size: 25px;
+        text-align: center;
+    }
+    .consultas_lista {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+    .consulta_card {
+        width: 65%; /* Ajuste a largura conforme necessário */
+    }
+    .paciente_imagem {
+        width: 150%;
+    }
+    .paciente_coluna2 {
+        padding-left: 3%;
+    }
+    .paciente_nome {
+        font-size: 20px;
+    }
+    .paciente_consulta {
+        font-size: 15px;
+    }
+    .conteudo_hora {
+        text-align: center;
+    }
+}
